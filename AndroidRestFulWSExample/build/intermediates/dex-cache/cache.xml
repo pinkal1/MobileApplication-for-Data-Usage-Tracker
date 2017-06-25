@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/.idea/libraries/achartengine-0.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a53b40b2a35c05b724e95c9c2ac609b092c16624">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/achartengine-0.2.0-e74ac6e088d2013c145d7a516f40db2ac12f8ef5.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/classes-b3944c5975ec120e6b819d0c885955bb906d8caa.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-98c07325061ead032e7adf19956e20f442ccf717.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-b93869028e920dac1cd629e0519161ace069075c.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/classes-c366a304bbeee31acc3d26795690f24492b1aefb.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4-039ecf71006258bc562fc36e698d981ede2c8558.jar" />
+    </item>
+    <item
+        jar="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ae24ad61a573cd1faf8261f5ec6d8f0cb58ddaad">
+        <dex dex="/Users/PinkalJay/aa/AndroidRestFulWSExample/app/build/intermediates/pre-dexed/debug/classes-265590b077d0588f96bb37f688c58e931c51c4c1.jar" />
+    </item>
+
+</items>

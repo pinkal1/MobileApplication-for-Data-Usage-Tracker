@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:text="Quota" />
+
+    <EditText
+        android:id="@+id/edit_quota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quota"
+        android:inputType="textEmailAddress|number" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Threshold" />
+
+    <EditText
+        android:id="@+id/edit_threshold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter thresold"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:text="Billing cycle" />
+
+    <EditText
+        android:id="@+id/edit_billingcycle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Billing cycle date"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnremoveuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="navigatetoForget_passwordActivity1"
+        android:text="Remove User"
+        android:textColor="#228b22"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnapply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="navigatetoForget_passwordActivity1"
+        android:text="Apply"
+        android:textColor="#228b22"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

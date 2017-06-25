@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.prgguru.example"
+        minSdkVersion 11
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.1.0'
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile 'com.jjoe64:graphview:4.0.0'
+    compile files('/Users/PinkalJay/aa/AndroidRestFulWSExample/.idea/libraries/achartengine-0.2.0.jar')
+}

@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Family Quota"
+            android:id="@+id/quota_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalFamilyQuota"
+            android:layout_toRightOf="@+id/quota_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Family Usage"
+            android:id="@+id/usage_label"
+            android:layout_below="@+id/quota_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totalFamilyUsage"
+            android:layout_toRightOf="@+id/usage_label"
+            android:layout_below="@+id/totalFamilyQuota"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Billing Cycle"
+            android:id="@+id/billing_label"
+            android:layout_below="@+id/usage_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/billingCycle"
+            android:layout_toRightOf="@+id/billing_label"
+            android:layout_below="@+id/totalFamilyUsage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Phone No."
+            android:id="@+id/adminNo_label"
+            android:layout_below="@id/billing_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adminNo"
+            android:layout_toRightOf="@+id/adminNo_label"
+            android:layout_below="@+id/billingCycle"/>
+
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/familyListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txtMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+</LinearLayout>
+<!-- From: file:/Users/PinkalJay/aa/AndroidRestFulWSExample/app/src/main/res/layout/familyrep_main.xml -->

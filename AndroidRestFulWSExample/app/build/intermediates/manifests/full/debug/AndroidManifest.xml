@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prgguru.example"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.prgguru.example.LoginActivity" >
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prgguru.example.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity android:name="com.prgguru.example.RegisterActivity" />
+        <activity android:name="com.prgguru.example.Edit_activity" />
+        <activity android:name="com.prgguru.example.Send_notification_activity" />
+        <activity android:name="com.prgguru.example.Date_activity" />
+        <activity android:name="com.prgguru.example.Tab_mainActivity" />
+        <activity android:name="com.prgguru.example.User_changepasswordActivity" />
+        <activity android:name="com.prgguru.example.Users_adduserActivity" />
+        <activity android:name="com.prgguru.example.Family_rep" />
+        <activity android:name="com.prgguru.example.User_List_activity" />
+        <activity android:name="com.prgguru.example.Test_graph" />
+    </application>
+
+</manifest>
